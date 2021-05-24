@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-Backend5-78343F1B-F4FB-49BE-BA9F-2F0B39FFFC93</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20210322030634_AddPatients.cs" />
+    <Compile Remove="Migrations\20210322030634_AddPatients.Designer.cs" />
+    <Compile Remove="Migrations\20210322034949_AddDoctors.cs" />
+    <Compile Remove="Migrations\20210322034949_AddDoctors.Designer.cs" />
+    <Compile Remove="Migrations\20210405032230_AddAnalysisDeleteBehaviorNull.cs" />
+    <Compile Remove="Migrations\20210405032230_AddAnalysisDeleteBehaviorNull.Designer.cs" />
+    <Compile Remove="Migrations\20210405033022_AddAnalysisDeleteBehaviorNull2.cs" />
+    <Compile Remove="Migrations\20210405033022_AddAnalysisDeleteBehaviorNull2.Designer.cs" />
+    <Compile Remove="Migrations\20210405033843_AddAnalysisDeleteBehaviorRestrict.cs" />
+    <Compile Remove="Migrations\20210405033843_AddAnalysisDeleteBehaviorRestrict.Designer.cs" />
+    <Compile Remove="Migrations\20210405034211_AddAnalysisDeleteBehaviorRestrict.cs" />
+    <Compile Remove="Migrations\20210405034211_AddAnalysisDeleteBehaviorRestrict.Designer.cs" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
